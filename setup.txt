@@ -1,0 +1,6 @@
+npm init -y
+npm i tailwindcss
+npx tailwindcss init
+tambahin alamat file index ke tailwind.config.js
+bikin file tailwind.css, isinya [@tailwind base;@tailwind components;@tailwind utilities;]
+tambahin ["dev": "tailwindcss -i ./tailwind.css -o ./style.css --watch"] ke package.json, di bagian scripts
