@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Test Tailwind</title>
-        <link rel="stylesheet" href="./style.css" />
-        <style>
+        <!-- <link rel="stylesheet" href="style.css" /> -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style type="text/tailwindCSS">
             * {
                 border: 1px solid red;
             }
@@ -14,26 +15,26 @@
     </head>
     <body>
         <h1 class="text-6xl bg-black text-white text-center">Header</h1>
-        <section class="mb-10">
-            <h2>Spacing</h2>
-            <div class="m-4">Margin</div>
-            <div class="p-4">Padding</div>
-        </section>
-        <section class="mb-10">
-            <h2>Sizing</h2>
-            <div class="w-1/4">Kotak width</div>
-            <div class="h-1/4">Kotak height</div>
-        </section>
-        <section class="mb-96 font-mono max-w-xl mx-auto">
-            <h2 class="mb-4">Pengaruh Hidup Sehat Terhadap Cara Manusia Berinteraksi</h2>
-            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis placeat eius id dolorum alias incidunt suscipit excepturi minima vero doloribus.</p>
-            <p class="mb-4">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque nihil at sit nemo sequi officiis? Culpa assumenda beatae dolore error esse quas incidunt aliquam? Magnam tempore illo
-                fugit reprehenderit facilis!
-            </p class="mb-4">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, dolore!</p>
-            <p class="mb-4">
-            </p>
-        </section>
+            <section class="mb-10 mx-auto max-w-xs">
+                <h2>Spacing</h2>
+                <div class="m-4">Margin</div>
+                <div class="p-4">Padding</div>
+            </section>
+            <section class="mb-10">
+                <h2>Sizing</h2>
+                <div class="w-1/4">Kotak width</div>
+                <div class="h-1/4">Kotak height</div>
+            </section>
+            <section class="mb-96 font-mono max-w-xl mx-auto">
+                <h2 class="mb-4">Pengaruh Hidup Sehat Terhadap Cara Manusia Berinteraksi</h2>
+                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis placeat eius id dolorum alias incidunt suscipit excepturi minima vero doloribus.</p>
+                <p class="mb-4">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque nihil at sit nemo sequi officiis? Culpa assumenda beatae dolore error esse quas incidunt aliquam? Magnam tempore illo
+                    fugit reprehenderit facilis!
+                </p class="mb-4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, dolore!</p>
+                <p class="mb-4">
+                </p>
+            </section>
     </body>
 </html>
