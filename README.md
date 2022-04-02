@@ -4,7 +4,7 @@
 
     npm init -y
 
-    npm i tailwindcss
+    npm install -D tailwindcss
 
     npx tailwindcss init
 
